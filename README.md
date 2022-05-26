@@ -2,7 +2,7 @@
 
 ### About the service
 
-As the name suggests, this service extracts data from different excel files attached to documents in the platform. It extracts data from different tables such as data mapper(Name of the key to which data from excel will be mapped), header pos(Eg:Property Location, Property Valuation), excel_sheet (Name of the worksheet in excel), etc. It stores the condition information from DD reports.
+This service handles different tasks such as fetching exceptions, deleting exceptions, update loan report, update bulk loan status, update data tape, etc. It also stores the condition information from DD reports.
 
 The below link provides overall Architecture of the service:<br />
 [Exception-service Architecture](https://toorakcapital.atlassian.net/wiki/spaces/PA/pages/306675713/Exception+Service)
@@ -49,7 +49,7 @@ Kindly follow below instructions for setting up your project locally. To get a l
 
 <br />
 (Before moving to further steps kindly create a local database for the alembic commands to work. Also provide the path of the database in environment variables as      "Database_URL". The format for DATABASE_URL is : 'postgresql://username:password@localhost:port/databasename'. <br />  
- Example : postgresql://postgres:pass123@localhost:5432/code-test )
+ Example : postgresql://postgres:pass123@localhost:5432/exception-service )
 <br />
 <br />
 
