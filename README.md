@@ -2,7 +2,7 @@
 
 ### About the service
 
-As the name suggests, this service extracts data from different excel file attached to documents in the platform. It extracts data from different tables such as data mapper(Name of the key to which data from excel will be mapped), header pos(Eg:Property Location, Property Valuation), excel_sheet (Name of the worksheet in excel), etc. It stores the condition informatiion from DD reports.
+As the name suggests, this service extracts data from different excel files attached to documents in the platform. It extracts data from different tables such as data mapper(Name of the key to which data from excel will be mapped), header pos(Eg:Property Location, Property Valuation), excel_sheet (Name of the worksheet in excel), etc. It stores the condition information from DD reports.
 
 The below link provides overall Architecture of the service:<br />
 [Exception-service Architecture](https://toorakcapital.atlassian.net/wiki/spaces/PA/pages/234291362/Document+Domain)
